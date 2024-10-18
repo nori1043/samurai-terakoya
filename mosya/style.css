@@ -1,0 +1,103 @@
+html{
+  max-width: 960px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 180px;
+  font-family: Noto Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46.31px;
+  text-align: left;
+}
+
+
+.header-logo{
+  border: solid;
+  padding: 12px 29px;
+}
+
+.header-items{
+  display: flex;
+}
+
+.header-items:nth-child(2){
+  margin: 0 0 0 35px;
+}
+
+.about-title{
+  padding: 50px 428px 0px 428px;
+}
+
+h2{
+  font-family: Noto Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46.31px;
+  text-align: left;
+}
+
+li.main-text::before{
+  content: "・";
+}
+
+.main-about{
+  display: flex;
+}
+
+.icon{
+  margin: 26px 33px 0px 180px;
+}
+
+h3{
+  margin: 22px 400px 13px 0px;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.69px;
+  text-align: left;
+}
+
+.main-text{
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.52px;
+  text-align: left;
+}
+
+.works-title{
+  margin: 44px 425px 30px 428px;
+}
+
+.works-all{
+  display: flex;
+}
+
+.nigata{
+  margin: 0px 18px 23px 193px;
+}
+
+.nagano{
+  margin: 0px 18px 0px 0px;
+}
+
+.kyoto{
+  margin: 0px 194px 23px 0px;
+}
+
+.nigata> p, .nagano>p, .kyoto>p{
+  max-width: 178px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.52px;
+  text-align: center;
+}
+
+footer{
+  margin: 32px 347px 17px 345px;
+}
