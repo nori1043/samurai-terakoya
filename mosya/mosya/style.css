@@ -1,0 +1,133 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 180px;
+  font-family: Noto Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46.31px;
+  text-align: left;
+}
+
+
+.header-logo{
+  border: solid;
+  padding: 12px 29px;
+}
+
+.header-items{
+  display: flex;
+}
+
+.header-items:nth-child(2){
+  margin: 0 0 0 35px;
+}
+
+#about > img{
+  width: 100%;
+}
+
+.about-title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2{
+  font-family: Noto Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46.31px;
+  text-align: left;
+}
+
+li.main-text::before{
+  content: "・";
+}
+
+.main-about{
+  display:flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.icon{
+  margin-right: 33px;
+}
+
+h3{
+  margin-bottom:33px; 
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.69px;
+  text-align: left;
+}
+
+.main-text{
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.52px;
+  text-align: left;
+}
+
+.works-title{
+  text-align: center;
+  margin-top: 44px;
+}
+
+.works-all{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nagano{
+  margin-left: 18px;
+}
+
+.kyoto{
+  margin-left: 18px;
+}
+
+.nigata> p, .nagano>p, .kyoto>p{
+  max-width: 178px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.52px;
+  text-align: center;
+}
+
+footer{
+  margin-top: 32px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	/* 767px以下に適用されるCSS（スマホ用） */
+
+#works{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.works-all{
+  display: block;
+}
+
+.works-all > img{
+  width: 100%;
+}
+
+.nagano , .kyoto{
+margin-right: 0;
+margin-top: 30px;
+}
+
+.nigata> p, .nagano>p, .kyoto>p{
+  max-width: none;
+  margin-top: 17px;
+}
+}
